@@ -1,0 +1,83 @@
+@media screen and (max-width: 768px)
+{
+    .main-movie .container
+    {
+        width: 80%;
+    }
+
+    .main-movie
+    {
+        height: 400px;
+        background-size: cover;                        /* specifies size */
+    }
+
+    header .logo
+    {
+        margin-left: 5px;
+    }
+
+    a
+    {
+        font-size: 12px;
+        margin-right: 10px;
+        padding-right: 14px;                      
+    }
+
+    img .title
+    {
+        margin-left: 1px;
+    }
+
+    .title
+    {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        margin-left: 102px;
+        height: 5rem;
+        margin: 4.3rem 0  2.0rem 3.5rem;
+    
+        font-size: 40px;
+    }
+    
+    .description 
+    {
+        width: 70%;
+        height: 5%;
+        font-size: 14px;
+        margin-bottom: 2px;
+        margin-left: 25px;
+    }
+
+    .buttons 
+    {
+        margin-top: 5.0rem;
+        margin-left: 25px;
+        width: 100%;
+
+        display: flex;                       
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .watch
+    {
+        padding-left: 5px;
+        width: 40%;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .about
+    {
+        width: 58%;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1200px)
+{
+    .description 
+    {
+        width: 50%;
+    }
+}
